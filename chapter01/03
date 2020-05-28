@@ -1,0 +1,3 @@
+i = "Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
+count = [len(i.strip(",.")) for i in i.split()]
+print(count)
