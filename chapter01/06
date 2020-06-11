@@ -1,0 +1,5 @@
+def n_gram(s, n): return {tuple(s[i:i+n]) for i in range(len(s)-n+1)}
+
+s = "I am an NLPer"
+print(n_gram(s, 2))
+print(n_gram([t.strip(".,") for t in s.split()], 2))
